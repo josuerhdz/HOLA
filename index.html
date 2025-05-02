@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Una copa contigo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="animation-container">
+    <div class="scene">
+      <img src="botella.svg" class="botella" />
+      <div class="vino-chorro"></div>
+      <div class="copa-css">
+        <div class="liquido"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container hidden" id="carta-container">
+    <div class="carta">
+      <p>
+        Pao, me siento lleno de pasión cuando se trata de ti. Desde la primera vez hasta ahora,
+        sigo emocionándome por tener esto contigo, porque más que eso es una conexión de nuestras almas,
+        y amo tener esto con la persona que siempre anhelé. Tu cintura es espectacular tomarte de ahi me hace sentir que toco
+        un pedazo de nubes.
+      </p>
+      <p>
+        Días enteros soñando con este momento para ahora compartirlo contigo, y sé que no tengo el derecho,
+        pero en verdad aprecio ese momento contigo y me encantaría compartirlo de nuevo. Me gustaria que bailaramos juntos, solo que 
+        sin musica, pero manteniendo el ritmo.
+      </p>
+      <div class="botones">
+        <button onclick="mostrarCita()">Beber</button>
+        <button onclick="cerrarCarta()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container hidden" id="cita-container">
+    <h2>Esta es la cita</h2>
+    <p><strong>Hora:</strong> 5:00 p.m.</p>
+    <p><strong>Lugar:</strong> Motel California</p>
+    <p><strong>Bebida</strong> Botella de Vino</p>
+    <p><strong>Prepare una playlist (que no necesariamente son para marcar el ritmo c; )</strong></p>
+    <a href="https://open.spotify.com/playlist/0CH6gEhnbpwJxVKuD1lYw3?si=devljO8ARBan5KW6q5-J9g&pi=ChyNKDltT5i1r" target="_blank" class="playlist-button">
+      Escuchar la Playlist
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
